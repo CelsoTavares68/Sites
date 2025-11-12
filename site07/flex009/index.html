@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        div.container {
+            background-color: bisque;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: rgb(103, 103, 172);
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+             }
+
+
+        div#cxA {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        div#cxC {
+            flex-shrink: 1;
+            flex-grow: 2;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="cxA">A- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quis molestiae, soluta, veniam est iusto nobis dolorum non dolor dolore in eum eaque distinctio natus possimus numquam ipsa culpa sed.</div>
+        <div class="item" id="cxB">B- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae necessitatibus quasi deleniti modi culpa tempora voluptatem sequi earum, hic explicabo eum expedita libero! Modi, assumenda optio aperiam ullam aliquam doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate delectus incidunt temporibus tenetur! Consectetur aut quaerat dolore. Cum dolorum dignissimos suscipit porro animi. Exercitationem autem explicabo itaque qui non! Velit!</div>
+        <div class="item" id="cxC">C- Lorem, ipsum dolor sit amet consectetur adipisicing elit. At repellendus magnam, id suscipit esse quo totam fugit velit atque tempore sunt qui libero, minima voluptate, amet voluptatum voluptatibus ipsum voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni inventore fuga nesciunt quod sint ex in necessitatibus harum pariatur perspiciatis, cupiditate nam vero? Modi veritatis, expedita quisquam doloremque tempore animi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat vel soluta consequatur modi, quae consequuntur sapiente impedit ab omnis incidunt error saepe accusantium necessitatibus inventore deleniti eius vitae. Hic, cumque.</div>
+        
+    </div>
+</body>
+</html>
