@@ -43,12 +43,12 @@ header > nav > a {
     margin: 5px;
     border-radius: 7px;
     text-align: center;
-    background-color: rgb(27, 68, 27);
+    background-color: rgb(36, 36, 188);
     color: white;
 }
 
 header > nav> a:hover {
-    background-color: green;
+    background-color: rgb(62, 62, 108);
     transition: background-color .5s;
 }
 
