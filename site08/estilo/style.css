@@ -93,9 +93,13 @@ section#img02 {
     
 }
 
-footer {
+footer {font-size: .5em;
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 10px;
+    text-align: right;
+    padding: 5px;
+}
+
+footer > a {
+    font-size: .5em;
 }
